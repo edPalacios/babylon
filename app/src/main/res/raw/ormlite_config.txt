@@ -1,0 +1,47 @@
+#
+# generated on 2015/10/15 12:39:47
+#
+# --table-start--
+dataClass=com.ep.babylon.ormLite.ContactRow
+tableName=contacts
+# --table-fields-start--
+# --field-start--
+fieldName=_id
+columnName=_id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=first_name
+columnName=first_name
+# --field-end--
+# --field-start--
+fieldName=surname
+columnName=surname
+# --field-end--
+# --field-start--
+fieldName=address
+columnName=address
+# --field-end--
+# --field-start--
+fieldName=phone_number
+columnName=phone_number
+# --field-end--
+# --field-start--
+fieldName=email
+columnName=email
+# --field-end--
+# --field-start--
+fieldName=contactId
+columnName=contact_Id
+# --field-end--
+# --field-start--
+fieldName=createdAt
+columnName=created_at
+# --field-end--
+# --field-start--
+fieldName=updatedAt
+columnName=updated_at
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
