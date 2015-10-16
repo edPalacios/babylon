@@ -80,8 +80,12 @@ public class ContactListFragment extends Fragment implements LoaderManager.Loade
     }
 
 
-    @OnItemClick(R.id.contacts_listview)
+    @OnItemClick({R.id.contacts_listview, R.id.contacts_avatar_listview})
     void onItemSelected(int position) {
+        displayContactDetail(position);
+    }
+
+    private void displayContactDetail(int position) {
         Contact contact = getContact(position);
         Intent intent = new Intent(getActivity(), DetailsContactActivity.class);
         intent.putExtra(EXTRA_CONTACT, contact);
